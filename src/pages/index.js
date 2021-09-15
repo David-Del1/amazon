@@ -1,14 +1,14 @@
 import Head from 'next/head'
+import Header from '../components/Header'
 
 export default function Home() {
   return (
     <div>
       <Head>
-        <title>Amazin 2.0</title>
+        <title>Amazon 2.0</title>
       </Head>
 
-      <h1>Hey PAPA</h1>
-      {/* HEADER COMPONENT */}
+      <Header />
     </div>
   )
 }
